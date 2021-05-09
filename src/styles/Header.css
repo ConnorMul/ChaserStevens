@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav, .logo, .right-nav {
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: white;
+}
+
+#about, #art {
+    margin-right: 20px;
+}
+
+#header-logo {
+    margin-right: 15px;
+}
+
+#insta, #facebook {
+    margin-left: 20px;
+}
