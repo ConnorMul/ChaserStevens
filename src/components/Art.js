@@ -15,8 +15,10 @@ function Art() {
     const poemCards = poems.map(poem => <PoemCard key={poem.id} poem={poem}/>)
 
     return (
-        <div className="poem-cards-container">
-            {poemCards}
+        <div className="art-container">
+            <div className="poem-cards-container">
+                {poemCards}
+            </div>
         </div>
     )
 }

@@ -1,11 +1,15 @@
-.poem-cards-container {
+.art-container {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    height: 100%;
-    width: 100%;
+}
+
+.poem-cards-container {
+    align-items: center;
+    margin-top: 25px;
 }
 
 .poem-card {
-    background-color: black;
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.158);
 }
