@@ -7,15 +7,7 @@ import Art from './Art'
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [poems, setPoems] = useState()
-
-  useEffect(() => {
-    fetch("http://localhost:3001/poems")
-    .then(r => r.json())
-    .then(setPoems)
-  }, [])
   
-
   return (
     <div className="App">
       <Header />
@@ -29,7 +21,7 @@ function App() {
       </Route>
 
       <Route exact path='/art'>
-        <Art poems={poems}/>
+        <Art />
       </Route>
     </div>
   );
