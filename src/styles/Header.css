@@ -26,3 +26,9 @@
 #insta, #facebook {
     margin-left: 20px;
 }
+
+.navbar-links-header {
+    padding-right: 75px;
+    text-decoration: none;
+    color: white;
+}

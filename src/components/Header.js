@@ -11,7 +11,7 @@ export default function Header() {
                 <NavLink className="navbar-links" id="contact" to='/contact'>Contact</NavLink>
             </div>
             <div className='logo'>
-                <NavLink className="navbar-links" id="header-logo" to='/'>Chaser Stevens</NavLink>
+                <NavLink className="navbar-links-header" id="header-logo" to='/'>Chaser Stevens</NavLink>
             </div>
             <div className="right-nav">
                 <a className='navbar-links' id="twitter" href="https://www.twitter.com/chaserstevens">Twitter</a>
