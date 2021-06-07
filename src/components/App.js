@@ -1,5 +1,6 @@
 import '../styles/App.css';
 import Home from './Home'
+import Contact from './Contact'
 import Header from './Header'
 import { Redirect, Route, Switch, useHistory } from 'react-router-dom';
 import About from './About'
@@ -22,6 +23,10 @@ function App() {
 
       <Route exact path='/art'>
         <Art />
+      </Route>
+
+      <Route exact path='/contact'>
+        <Contact />
       </Route>
     </div>
   );

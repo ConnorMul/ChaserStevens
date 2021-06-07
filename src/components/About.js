@@ -20,7 +20,7 @@ export default function About() {
                 not to say they’re less excited, they’ve just seen so much since then. 
                 I’ve grown but i’m shaped heavily by my past. 
                 I’m living in New York now but my soul belongs to a place unknown.
-                </p>
+            </p>
         </div>
     )
 }
