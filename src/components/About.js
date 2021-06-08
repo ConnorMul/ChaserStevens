@@ -2,7 +2,7 @@ import '../styles/About.css';
 
 export default function About() {
     return (
-        <div>
+        <div className="about">
             <h1 className="about-header">poet. songwriter. lovemaker.</h1>
             <p className="about-details">I truly came into the world in April of 2015. 
                 Born again after all my pain into a new version of myself. 

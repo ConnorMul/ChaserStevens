@@ -1,22 +1,24 @@
 import React from 'react';
 import '../styles/Header.css'
 import { NavLink } from 'react-router-dom'
+import { SocialIcon } from 'react-social-icons';
+
 
 export default function Header() {
     return (
         <div className="header">
             <div className='left-nav'>
-                <NavLink className="navbar-links" id="about" to='/about'>About Me</NavLink>
-                <NavLink className="navbar-links" id="art" to='/art'>Poems & Things</NavLink>
-                <NavLink className="navbar-links" id="contact" to='/contact'>Contact</NavLink>
+                <NavLink className="navbar-links" id="about" to='/about'>about Me</NavLink>
+                <NavLink className="navbar-links" id="art" to='/art'>art</NavLink>
+                <NavLink className="navbar-links" id="contact" to='/contact'>contact</NavLink>
             </div>
             <div className='logo'>
                 <NavLink className="navbar-links-header" id="header-logo" to='/'>Chaser Stevens</NavLink>
             </div>
             <div className="right-nav">
-                <a className='navbar-links' id="twitter" href="https://www.twitter.com/chaserstevens">Twitter</a>
-                <a className='navbar-links' id="facebook" href="https://www.facebook.com/chaserstevens">Facebook</a>
-                <a className='navbar-links' id="insta" href="https://www.instagram.com/chaserelectric">Instagram</a>
+                <SocialIcon className="social-icons" bgColor="white" url="https://twitter.com/chaserstevens"/>
+                <SocialIcon className="social-icons" bgColor="white" url="https://instagram.com/chaserelectric"/>
+                <SocialIcon className="social-icons" bgColor="white" url="https://facebook.com/chaserstevens"/>
             </div>
         </div>
     )
