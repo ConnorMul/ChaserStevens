@@ -28,6 +28,8 @@
 }
 
 .navbar-links-header {
+    font-weight: bold;
+    font-style: oblique;
     padding-right: 75px;
     text-decoration: none;
     color: white;
