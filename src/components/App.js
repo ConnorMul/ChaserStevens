@@ -2,7 +2,7 @@ import '../styles/App.css';
 import Home from './Home'
 import Contact from './Contact'
 import Header from './Header'
-import { Redirect, Route, Switch, useHistory } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import About from './About'
 import Art from './Art'
 import { useEffect, useState } from 'react';
