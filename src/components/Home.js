@@ -1,10 +1,15 @@
 import React from 'react'
 import '../styles/Home.css'
+// import chaser from '../../chaser-stevens-logo.png'
 
 export default function Home() {
     return (
         <div className="home-container">
-            <h1 className='main-logo'>Chaser Stevens</h1>
+            <div className="spinning-circle">
+                <div className="inner-circle">
+                    <img src="../../chaser-stevens-logo.png" alt="logo" className="logo" />
+                </div>
+            </div>
         </div>
     )
 }

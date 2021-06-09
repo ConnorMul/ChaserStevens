@@ -1,5 +1,36 @@
 .home-container {
-    margin-top:23%;
+    margin-top: 9%;
     height: 100%;
     width: 100%;
+}
+
+.logo {
+   
+}
+
+.inner-circle {
+    animation: heartbeat 4s infinite;
+}
+
+.inner-circle img {
+    width: 50%;
+    height: 50%;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(2);
+    }
+    
+    50% {
+        transform: scale(1);
+    }
+    
+    100% {
+        transform: scale(1);
+    }
 }
