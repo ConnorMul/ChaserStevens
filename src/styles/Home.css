@@ -1,5 +1,5 @@
 .home-container {
-    margin-top: 15%;
+    margin-top: 13%;
     height: 100%;
     width: 100%;
 }
@@ -23,7 +23,7 @@
     }
 
     25% {
-        transform: scale(2);
+        transform: scale(1.5);
     }
     
     50% {
