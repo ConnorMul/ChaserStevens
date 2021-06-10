@@ -1,4 +1,5 @@
 import '../styles/App.css';
+import React from 'react'
 import Home from './Home'
 import Contact from './Contact'
 import Header from './Header'

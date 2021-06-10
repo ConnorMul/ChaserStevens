@@ -1,15 +1,26 @@
 .home-container {
-    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
     height: 100%;
     width: 100%;
 }
 
-.logo {
+.main-logo {
    
 }
 
 .inner-circle {
     animation: heartbeat 3s infinite;
+}
+
+.top-level {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-level {
+    
 }
 
 .inner-circle img {
@@ -23,7 +34,7 @@
     }
 
     25% {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     
     50% {

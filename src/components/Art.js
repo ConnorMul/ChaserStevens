@@ -1,5 +1,6 @@
 
 import PoemCard from './PoemCard'
+import React from 'react'
 import '../styles/Art.css'
 import { useEffect, useState } from 'react'
 
