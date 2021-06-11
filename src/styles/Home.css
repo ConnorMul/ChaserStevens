@@ -1,9 +1,10 @@
 .home-container {
     display: flex;
     align-items: center;
-    /* margin-top: 3%; */
+    margin-top: -4.5%;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .main-logo {
@@ -11,7 +12,9 @@
 }
 
 .inner-circle {
+    height: 100%;
     animation: heartbeat 3s infinite;
+    overflow: hidden;
 }
 
 .top-level {
