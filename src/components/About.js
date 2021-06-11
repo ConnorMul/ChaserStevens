@@ -1,8 +1,11 @@
 import '../styles/About.css';
 import React from 'react'
+import Header from './Header'
 
 export default function About() {
     return (
+        <React.Fragment>
+        <Header />
         <div className="about">
             <h1 className="about-header">poet. songwriter. lovemaker.</h1>
             <p className="about-details">I truly came into the world in April of 2015. 
@@ -23,5 +26,6 @@ export default function About() {
                 I’m living in New York now but my soul belongs to a place unknown.
             </p>
         </div>
+        </React.Fragment>
     )
 }

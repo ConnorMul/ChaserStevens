@@ -1,7 +1,7 @@
 .home-container {
     display: flex;
     align-items: center;
-    margin-top: 3%;
+    /* margin-top: 3%; */
     height: 100%;
     width: 100%;
 }
@@ -34,7 +34,7 @@
     }
 
     25% {
-        transform: scale(1.2);
+        transform: scale(1.07);
     }
     
     50% {

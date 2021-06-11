@@ -1,4 +1,4 @@
-
+import Header from './Header'
 import PoemCard from './PoemCard'
 import React from 'react'
 import '../styles/Art.css'
@@ -17,6 +17,7 @@ function Art() {
 
     return (
         <div className="art-container">
+            <Header />
             <div className="poem-cards-container">
                 {poemCards}
             </div>

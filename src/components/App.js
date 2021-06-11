@@ -3,19 +3,26 @@ import React from 'react'
 import Home from './Home'
 import Contact from './Contact'
 import Header from './Header'
-import { Route } from 'react-router-dom';
+import { Route, useHistory, Switch } from 'react-router-dom';
 import About from './About'
 import Art from './Art'
 import { useEffect, useState } from 'react';
 
 function App() {
+  const history = useHistory()
+
+  const handleLogoClick = () => {
+    history.push('/art')
+  }
   
   return (
     <div className="App">
-      <Header />
-      
+      {/* <Header /> */}
+      <Switch >
       <Route exact path="/">
-        <Home />
+        <Home 
+          onLogoClick={handleLogoClick}
+        />
       </Route>
 
       <Route exact path='/about'>
@@ -29,6 +36,7 @@ function App() {
       <Route exact path='/contact'>
         <Contact />
       </Route>
+      </Switch>
     </div>
   );
 }
