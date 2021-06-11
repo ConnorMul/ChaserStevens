@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <div className="header">
             <div className='left-nav'>
-                <NavLink className="navbar-links-left" id="about" to='/about'>about me</NavLink>
+                <NavLink className="navbar-links-left" id="about" to='/about'>about</NavLink>
                 <NavLink className="navbar-links-left" id="art" to='/art'>art</NavLink>
                 <NavLink className="navbar-links-left" id="contact" to='/contact'>contact</NavLink>
             </div>

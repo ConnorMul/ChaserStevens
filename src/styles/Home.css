@@ -1,10 +1,15 @@
 .home-container {
     display: flex;
     align-items: center;
-    margin-top: -4.5%;
+    /* margin-top: -4.5%; */
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+.home-video {
+    height: 100%;
+    width: 100%;
 }
 
 .main-logo {
